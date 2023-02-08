@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(64, 113, 244);
+}
+/* input:invalid{
+    animation: shake .3s;
+}
+@keyframes shake{
+    25%{ transform: translateX(4px)}
+    50%{ transform: translateX(-4px)}
+    75%{ transform: translateX(4px)}
+} */
+.main_container {
+    display: flex;
+    justify-content: center;
+}
+
+#logIn_container {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.h1_div {
+    margin-top: 35px;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.li {
+    list-style: none;
+}
+
+/* same inputs container div */
+
+#same_inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.same_input {
+    padding: 13px;
+    margin: 8px 0px;
+    width: 300px;
+    font-size: 17px;
+    border: 1px solid rgb(180, 176, 176);
+    border-radius: 5px;
+    box-shadow: -1px 6px 4px -4px rgba(180, 176, 176, 0.57);
+}
+
+.same_input:focus {
+    outline: none;
+}
+
+#logIn_btn {
+    background-color: rgb(64, 113, 244);
+    color: white;
+    padding: 10px;
+    margin: 15px 0px;
+    width: 328px;
+    font-size: 18px;
+    border: 1px solid rgb(180, 176, 176);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#logIn_btn:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(64, 113, 244);
+    color: rgb(64, 113, 244);
+}
+
+.border_bottom {
+    border-bottom: 1px solid rgb(64, 113, 244);
+    width: 160px;
+    margin: -8px 120px;
+}
+
+.userImage{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: 10px 150px;
+}
+.userScreen_h1 {
+    text-align: center;
+    margin: 0px;
+    font-size: 25px;
+}
+
+.Add_friend_btn {
+    background-color: rgb(64, 113, 244);
+    color: white;
+    padding: 10px;
+
+    /* for center the button  */
+    margin: 12px 40px;
+
+    width: 328px;
+    font-size: 18px;
+    border: 1px solid rgb(180, 176, 176);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.Add_friend_btn:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(64, 113, 244);
+    color: rgb(64, 113, 244);
+}
+
+.Add_friend_images{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px 10px;
+}
+.add_friend_span{
+    position: absolute;
+    margin: 5px 6px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.add_friend_btn{
+    position: relative;
+    top: -10px;
+    background-color: rgb(64, 113, 244);
+    color: white;
+    padding: 8px;
+    width: 130px;
+    font-size: 15px;
+    border: 1px solid rgb(180, 176, 176);
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.add_friend_btn:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(64, 113, 244);
+    color: rgb(64, 113, 244);
+}

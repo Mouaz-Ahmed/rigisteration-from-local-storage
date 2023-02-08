@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rigisteration-form</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body onload="rigisteredUser_storage()">
+    <div class="main_container">
+        <div id="rgisteration_container">
+            <div class="h1_div">
+                <h1 class="h1">Registration Form</h1>
+                <div class="border_bottom"></div>
+            </div>
+            <div id="form">
+                <form action="#">
+                    <ul>
+                        <div id="same_inputs">
+                            <li class="li"><input class="same_input" type="text" placeholder="Enter your name" 
+                                    id="User_name_value">
+                            </li>
+                            <li class="li"><input class="same_input" type="text" placeholder="Enter profile pic" 
+                                    id="profile_pic_value">
+                            </li>
+                            <li class="li"><input class="same_input" type="email" placeholder="Enter your email"
+                                    id="email_value">
+                            </li>
+                            <li class="li"><input class="same_input" type="password" placeholder="Enter your password"
+                                    id="password_value">
+                            </li>
+                        </div>
+                        <li class="li"><input id="checkbox_input" type="checkbox"><span class="span">I accept all terms
+                                & conditions</span>
+                        </li>
+                        <!-- <li class="li"><input id="rigister_btn" type="submit" value="Rigister Now"
+                            onclick="getValues()"></li> -->
+                            <li class="li">
+                                <a href="#" id="rigister_btn" onclick="getValues()">Rigister Now</a>
+                            </li>
+                    </ul>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
